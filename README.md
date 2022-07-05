@@ -1,5 +1,5 @@
 # VideoChapter
-Windows 11, 64-bit application, to add chapters in a given video file.
+Windows 11, 64-bit application, to add chapters for a given video file.
 
 This software needs "FFmpeg" as its dependency. So, install "FFmpeg" and add it to path.
 
