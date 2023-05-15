@@ -54,6 +54,6 @@ for i in range(len(file_no_ext_list)):
     if i < len(file_no_ext_list)-1:
         file_no_ext += "."
 ext =  str(input_video_file.split(".")[-1])
-command = "ffmpeg -i \"" + input_video_file + "\" -i FFMETADATAFILE -map_metadata 1 -codec copy \"" + file_no_ext + " - chapter." + ext
+command = "ffmpeg -i \"" + input_video_file + "\" -i FFMETADATAFILE -map_metadata 1 -codec copy \"" + file_no_ext + " - chapter." + ext + "\""
 
 os.system(command)
